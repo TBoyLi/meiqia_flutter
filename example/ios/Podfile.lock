@@ -1,0 +1,40 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - Meiqia (3.9.2):
+    - Meiqia/MeiqiaSDK (= 3.9.2)
+    - Meiqia/MQChatViewController (= 3.9.2)
+  - Meiqia/MeiqiaSDK (3.9.2)
+  - Meiqia/MQChatViewController (3.9.2):
+    - Meiqia/MeiqiaSDK
+  - meiqia_flutter (0.0.1):
+    - Flutter
+    - Meiqia (>= 3.8.6)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - meiqia_flutter (from `.symlinks/plugins/meiqia_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Meiqia
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  meiqia_flutter:
+    :path: ".symlinks/plugins/meiqia_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  Meiqia: 2f69479c2a8f41df2b5ce2f11eae117f7cfc54b5
+  meiqia_flutter: c5c55e58e23874fca233b2671ccacd041689f6c1
+
+PODFILE CHECKSUM: 02caaa843f6501172c0d470d80e72f61175c8b93
+
+COCOAPODS: 1.12.1
